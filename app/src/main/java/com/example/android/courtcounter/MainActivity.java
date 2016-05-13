@@ -97,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(TeamAScore);
     }
     /**
-     * Displays the given score for Team A.
+     * Reverts the chages done to Score of Team B.
      */
     public void teamBUndo(View view) {
         TeamBScore = TeamBPrevScore;
