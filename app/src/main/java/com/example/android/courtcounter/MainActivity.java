@@ -112,4 +112,13 @@ public class MainActivity extends AppCompatActivity {
         displayForTeamA(TeamAScore);
 
     }
+    /**
+     * Displays the given score for Team A.
+     */
+    public void masterUndo(View view) {
+        teamAUndo(null);
+        teamBUndo(null);
+
+    }
+
 }
